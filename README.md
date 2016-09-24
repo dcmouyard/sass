@@ -3,7 +3,7 @@
 [Sass](http://sass-lang.com/) is a scripting language that gets compiled into CSS. This repo uses the SCSS syntax, so any valid CSS you write is also valid SCSS. [Variables](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_), [Nesting](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#css_extensions), and [Mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) are just a few of Sass’s powerful features.
 
 ## Branches
-The `master` branch is a bare-bones starting point. The `drupal-8` branch is for Drupal 8 themes, and is very similar to what comes with the [Gesso theme](https://github.com/forumone/gesso).
+The [master](https://github.com/dcmouyard/sass/tree/master) branch is a bare-bones starting point. The [drupal-8](https://github.com/dcmouyard/sass/tree/drupal-8) branch is for Drupal 8 themes, and is very similar to what comes with the [Gesso theme](https://github.com/forumone/gesso).
 
 ## File Structure
 
