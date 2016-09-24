@@ -1,0 +1,22 @@
+// @file
+// Global partials
+//
+// These partials will be shared across all CSS files and include variables,
+// functions, and mixins. None of these partials should output any CSS.
+
+// Helper functions and mixins from external libraries.
+@import 'breakpoint-sass/stylesheets/breakpoint'; // github.com/Team-Sass/breakpoint
+@import 'singularity/stylesheets/singularitygs'; // github.com/Team-Sass/Singularity
+
+// Custom partials to be shared with all .scss files.
+@import 'global/variables/settings';
+@import 'global/variables/colors';
+@import 'global/variables/layout';
+@import 'global/variables/typography';
+@import 'global/helpers/accessibility';
+@import 'global/helpers/border-box';
+@import 'global/helpers/clearfix';
+@import 'global/helpers/em';
+@import 'global/helpers/image-replace';
+@import 'global/helpers/rem';
+@import 'global/helpers/svg-background';
