@@ -1,13 +1,13 @@
 # Sass
 
-[Sass](http://sass-lang.com/) is a scripting language that gets compiled into CSS. This repo uses the SCSS syntax, so any valid CSS you write is also valid SCSS. [Variables](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_), [Nesting](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#css_extensions), and [Mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) are just a few of Sass’s powerful features.
-
-## Branches
-The `master` branch is a bare-bones starting point. The `drupal-8` branch is for Drupal 8 themes, and is very similar to what comes with the [Gesso theme](https://github.com/forumone/gesso).
+[Sass](http://sass-lang.com/) is a scripting language that gets compiled into CSS. This theme uses the SCSS syntax, so any valid CSS you write is also valid SCSS. [Variables](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_), [Nesting](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#css_extensions), and [Mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) are just a few of Sass’s powerful features.
 
 ## File Structure
 
 This Sass file structure uses many of the ideas discussed in Jonathan Snook’s [SMACSS](http://smacss.com) and Harry Robert’s [itcss](http://itcss.io), which provide a starting point for building modular, scalable CSS.
+
+It’s recommended that you follow the
+[Drupal 8 CSS architecture guidelines](https://drupal.org/node/1887918).
 
 ### styles.scss
 This file shouldn’t contain any CSS code. It only serves to combine the CSS contained in other Sass partials through @import directives. By default, the compiled styles.css file is sent to all browsers except IE8 and below.
@@ -32,6 +32,9 @@ utility classes that aren’t components themselves, such as clearfix.
 
 ### partials/_quick-fixes.scss
 Deadlines happen, so put your quick fixes here. Hopefully there will be time later to move/re-factor these styles into their proper place.
+
+### overrides/
+Stylesheets provided by Drupal modules that you want to completely override go here. Please update *.libraries.yml to ensure that the module’s stylesheets are not added and your override stylesheets are added in their place.
 
 ## SMACSS
 
