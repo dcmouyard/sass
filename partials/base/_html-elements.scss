@@ -4,8 +4,7 @@
 *,
 *:before,
 *:after {
-  // Box-sizing: border-box
-  @include border-box;
+  box-sizing: inherit;
 }
 
 * {
@@ -185,6 +184,7 @@ hr {
 
 html {
   @extend %base-font-family;
+  @include border-box;
   font-size: 100% * ($base-font-size / 16px);
   hyphens: none;
   line-height: $base-line-height;
@@ -193,7 +193,9 @@ html {
 
 i {}
 
-iframe {}
+iframe {
+  border: 0;
+}
 
 img {
   border: 0;
