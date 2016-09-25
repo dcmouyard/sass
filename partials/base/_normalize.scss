@@ -180,3 +180,8 @@ object {
   color: $selection-foreground;
   text-shadow: none;
 }
+
+// Don’t show focus styles for elements that can’t be accessed via keyboard.
+[tabindex="-1"]:focus {
+  outline: none !important;
+}
