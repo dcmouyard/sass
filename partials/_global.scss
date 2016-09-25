@@ -5,8 +5,8 @@
 // functions, and mixins. None of these partials should output any CSS.
 
 // Helper functions and mixins from external libraries.
-@import 'breakpoint-sass/stylesheets/breakpoint'; // github.com/Team-Sass/breakpoint
-@import 'singularity/stylesheets/singularitygs'; // github.com/Team-Sass/Singularity
+@import 'breakpoint'; // github.com/Team-Sass/breakpoint
+@import 'singularitygs'; // github.com/Team-Sass/Singularity
 
 // Custom partials to be shared with all .scss files.
 @import 'global/variables/settings';

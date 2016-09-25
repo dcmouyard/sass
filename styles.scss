@@ -1,6 +1,5 @@
-@import 'breakpoint-sass/stylesheets/breakpoint'; // github.com/Team-Sass/breakpoint
-@include breakpoint-set('no queries', false);
-@include breakpoint-set('no query fallbacks', false);
+// @file
+// Main styles
 
 @import 'partials/global';
 @import 'partials/base';
