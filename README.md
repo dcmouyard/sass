@@ -28,7 +28,7 @@ The layout of major regions that components will be placed into.
 Discrete, reusable UI components. (Think SMACSS “modules”.) The majority of your styles should be here.
 
 ### partials/_utilities.scss
-utility classes that aren’t components themselves, such as clearfix.
+Utility classes that aren’t components themselves, such as clearfix.
 
 ### partials/_quick-fixes.scss
 Deadlines happen, so put your quick fixes here. Hopefully there will be time later to move/re-factor these styles into their proper place.
