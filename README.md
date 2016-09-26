@@ -5,6 +5,9 @@
 ## Branches
 The [master](https://github.com/dcmouyard/sass/tree/master) branch is a bare-bones starting point. The [drupal-8](https://github.com/dcmouyard/sass/tree/drupal-8) branch is for Drupal 8 themes, and is very similar to what comes with the [Gesso theme](https://github.com/forumone/gesso).
 
+## Setup
+These Sass partials depend on [breakpoint](https://github.com/Team-Sass/breakpoint), which is usually added via [Bower](https://bower.io).
+
 ## File Structure
 
 This Sass file structure uses many of the ideas discussed in Jonathan Snook’s [SMACSS](http://smacss.com) and Harry Robert’s [itcss](http://itcss.io), which provide a starting point for building modular, scalable CSS.
