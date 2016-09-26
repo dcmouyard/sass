@@ -1,0 +1,26 @@
+// @file
+// Clearfix
+
+@mixin clearfix {
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+    *zoom: 1;
+  }
+
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+@mixin clearfix-important {
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+    *zoom: 1;
+  }
+
+  &:after {
+    clear: both !important;
+    content: '' !important;
+    display: table !important;
+  }
+}

@@ -2,6 +2,9 @@
 
 [Sass](http://sass-lang.com/) is a scripting language that gets compiled into CSS. This theme uses the SCSS syntax, so any valid CSS you write is also valid SCSS. [Variables](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_), [Nesting](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#css_extensions), and [Mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) are just a few of Sass’s powerful features.
 
+## Branches
+The [master](https://github.com/dcmouyard/sass/tree/master) branch is a bare-bones starting point. The [drupal-8](https://github.com/dcmouyard/sass/tree/drupal-8) branch is for Drupal 8 themes, and is very similar to what comes with the [Gesso theme](https://github.com/forumone/gesso).
+
 ## File Structure
 
 This Sass file structure uses many of the ideas discussed in Jonathan Snook’s [SMACSS](http://smacss.com) and Harry Robert’s [itcss](http://itcss.io), which provide a starting point for building modular, scalable CSS.
@@ -19,7 +22,7 @@ A duplicate of styles.scss, but includes legacy support for older browsers. By d
 Global variables, functions, and mixins that should be imported into all scss files.
 
 ### partials/_base.scss
-CSS reset based on [Normalize.css](http://necolas.github.io/normalize.css) and default styles for HTML elements. Custom font declarations go here as well.
+CSS reset based on [Normalize.css](http://necolas.github.io/normalize.css) and default styles for HTML elements. Custom font declarations and extendables go here as well.
 
 ### partials/_layout.scss
 The layout of major regions that components will be placed into.
@@ -28,7 +31,7 @@ The layout of major regions that components will be placed into.
 Discrete, reusable UI components. (Think SMACSS “modules”.) The majority of your styles should be here.
 
 ### partials/_utilities.scss
-utility classes that aren’t components themselves, such as clearfix.
+Utility classes that aren’t components themselves, such as clearfix.
 
 ### partials/_quick-fixes.scss
 Deadlines happen, so put your quick fixes here. Hopefully there will be time later to move/re-factor these styles into their proper place.
