@@ -19,7 +19,7 @@ A duplicate of styles.scss, but includes legacy support for older browsers. By d
 Global variables, functions, and mixins that should be imported into all scss files.
 
 ### partials/_base.scss
-CSS reset based on [Normalize.css](http://necolas.github.io/normalize.css) and default styles for HTML elements. Custom font declarations go here as well.
+CSS reset based on [Normalize.css](http://necolas.github.io/normalize.css) and default styles for HTML elements. Custom font declarations and extendables go here as well.
 
 ### partials/_layout.scss
 The layout of major regions that components will be placed into.
