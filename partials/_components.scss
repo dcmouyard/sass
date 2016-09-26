@@ -4,6 +4,14 @@
 // Discrete, reusable UI components. (SMACSS “modules”) Build sub-folders and
 // partials in the `components` folder.
 
+@import 'components/breadcrumb';
 @import 'components/button';
+@import 'components/fieldset';
+@import 'components/form-item';
+@import 'components/messages';
+@import 'components/mobile-menu';
 @import 'components/nav';
+@import 'components/pager';
+@import 'components/progress-bar';
+@import 'components/region-navigation';
 @import 'components/skiplinks';

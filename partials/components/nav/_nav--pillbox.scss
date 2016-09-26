@@ -3,8 +3,8 @@
 
 $pillbox-color-bg: #f9f9f9 !default;
 $pillbox-color-text: #333 !default;
-$pillbox-gradient-top: $gradient-top !default;
-$pillbox-gradient-bottom: $gradient-bottom !default;
+$pillbox-gradient-top: $gradient-light !default;
+$pillbox-gradient-bottom: $gradient-dark !default;
 
 %nav--pillbox {
   @include clearfix;
