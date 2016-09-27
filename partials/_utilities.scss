@@ -1,5 +1,7 @@
 // @file
 // Utility classes
+//
+// Build sub-folders and partials in the 'helper-classes' folder. Sass globbing
+// will automatically import these partials.
 
-@import 'utilities/accessibility';
-@import 'utilities/clearfix';
+@import 'sass-globbing/utilities';
