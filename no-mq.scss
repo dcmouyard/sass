@@ -3,7 +3,7 @@
 
 $legacy-support-for-ie8: true;
 
-@import 'breakpoint'; // github.com/Team-Sass/breakpoint
+@import 'breakpoint-sass/stylesheets/breakpoint'; // github.com/Team-Sass/breakpoint
 // Don't print media queries & print no query fallbacks.
 // github.com/Team-Sass/breakpoint/wiki/No-Query-Fallbacks
 @include breakpoint-set('no queries', true);
